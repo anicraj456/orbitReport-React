@@ -1,4 +1,4 @@
-const satData = [
+  const satData = [
    {
      id: 1,
      name: "Sirius 1",
