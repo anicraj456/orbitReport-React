@@ -2,7 +2,7 @@ import React from "react";
 import satData from "./satData";
 import Buttons from "./Buttons";
 import App  from "../App";
-import './styling.css';
+
 
 const Table = ({ sat }) => {
   return (
@@ -16,14 +16,13 @@ const Table = ({ sat }) => {
      </tr>
      </thead>
      <tbody>
-
      {sat.map((data,id) =>{
       return(
      <tr key ={id}>
        <td>{data.name}</td>
        <td>{data.type}</td>
        <td>{data.launchDate}</td>
-       <td>{data.operational ? "Active" : "Inactive"}</td>
+       <td>{data.operational?"Active":"Inactive"}</td>
      </tr>
       )}
      )};
