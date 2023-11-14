@@ -1,8 +1,7 @@
 import React from "react";
-import satData from "./satData";
-import Buttons from "./Buttons";
-import App  from "../App";
-
+//import satData from "./satData";
+//import Buttons from "./Buttons";
+//import App  from "../App";
 
 const Table = ({ sat }) => {
   return (
